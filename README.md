@@ -15,12 +15,15 @@ Colour scheme - TBC
 Font style - TBC
 Favicon image will be an image of a list. 
 
+To-Do list will have an input form with a submit button.
+Once a submission is made it'll create a ul list. 
+Against each list item will be a 'complete' button which will remove the item from the list.
+
 
 ### JS Functions
 
 I will need a function which takes a user's text input and displays their input to the webapp
-
-I will need the input function to also alert the user when they attempt to submit an empty input box to the webapp. 'Invalid submission'
+the input function will also alert the user when they attempt to submit an empty input box to the webapp. 'Invalid submission'
 
 I will need a function to tally up the users inputs and display this to the webapp
 The function will also need to tally up completed/outstanding tasks.
