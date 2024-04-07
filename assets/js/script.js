@@ -14,8 +14,7 @@ function goalInput() {
         document.getElementById("goals").append(li);
         let btn = document.createElement("button");
         btn.innerHTML = "Complete!";
-        btn.onclick = function(removeItem) {
-
+        btn.onclick = function() {
             alert("Congratulations on completing a task!");
         };
         document.getElementById("goals").append(btn);
