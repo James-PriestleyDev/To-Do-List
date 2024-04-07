@@ -3,15 +3,15 @@
  * in form of a ul list.
  */
 function goalInput() {
-    let p = document.createElement("p");
+    let li = document.createElement("li");
     let userInput = document.getElementById("userInput").value;
     let text = document.createTextNode(userInput);
-    p.appendChild(text);
+    li.appendChild(text);
   
     if (userInput === '') {
         alert("You have not entered a goal");
     } else {
-        document.getElementById("goals").append(p);
+        document.getElementById("goals").append(li);
     }
 
 }

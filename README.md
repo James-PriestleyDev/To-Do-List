@@ -8,6 +8,8 @@ their tasks will show on the webapp in list order.
 The To-Do list will also tally up the users completed and outstanding tasks, showing these
 results at the bottom of the page. 
 
+So the user can keep track of how many tasks they have completed and how many they have left to complete. 
+
 ### HTML / CSS
 
 The HTML/CSS side to the web page will be basic on a static card in the center of the webapp.
