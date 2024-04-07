@@ -2,7 +2,17 @@
  * This will take the users input and display the text to the webapp
  * in form of a ul list.
  */
-function userInput() {
+function goalInput() {
+    let p = document.createElement("p");
+    let userInput = document.getElementById("userInput").value;
+    let text = document.createTextNode(userInput);
+    p.appendChild(text);
+  
+    if (userInput === '') {
+        alert("You have not entered a goal");
+    } else {
+        document.getElementById("goals").append(p);
+    }
 
 }
 
