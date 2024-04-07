@@ -12,7 +12,7 @@ function goalInput() {
         alert("You have not entered a goal");
     } else {
         document.getElementById("goals").append(li);
-        let btn = document.createElement("button");
+        let btn = document.createElement("span");
         btn.innerHTML = "Complete!";
         btn.onclick = function() {
             alert("Congratulations on completing a task!");
@@ -21,6 +21,7 @@ function goalInput() {
     }
 
 }
+
 
 /**
  * This function will tally up the users inputs 
