@@ -28,6 +28,10 @@ function goalInput() {
  * and show the results on the webapp
  */
 function inputTally() {
+    let tally = document.getElementsByClassName("btn");
+    addEventListener.tally("click")
+    let totalItems = listItems.length;
+    tally.innerHTML = totalItems;
 
 }
 
