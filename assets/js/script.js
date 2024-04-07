@@ -12,6 +12,13 @@ function goalInput() {
         alert("You have not entered a goal");
     } else {
         document.getElementById("goals").append(li);
+        let btn = document.createElement("button");
+        btn.innerHTML = "Complete!";
+        btn.onclick = function(removeItem) {
+
+            alert("Congratulations on completing a task!");
+        };
+        document.getElementById("goals").append(btn);
     }
 
 }
