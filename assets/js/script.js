@@ -1,14 +1,24 @@
 const userInput = document.getElementById("user-input");
 const input = document.getElementById("goal-input");
+const modal = document.getElementById("goals");
+const btn = document.getElementById("btn");
 
 /**
  * This will take the users input and display the text to the webapp
  * in form of a ul list.
  */
 function goalInput() {
-    if (userInput === ''){
-        
+    if (userInput.value === ''){
+        alert("Please add a goal prior to submitting!");
+        }
+     else {
+        let li = document.createElement("li");
+        li.innerHTML = userInput.value;
+        input.appendChild(li);
     }
+}
+console.log(goalInput());
+
 
 
 /**
