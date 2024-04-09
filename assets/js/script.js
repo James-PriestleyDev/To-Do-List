@@ -15,9 +15,11 @@ function goalInput() {
         let li = document.createElement("li");
         li.innerHTML = userInput.value;
         input.appendChild(li);
+        let span = document.createElement("span");
+        span.innerHTML = "Complete";
+        li.appendChild(span);
     }
 }
-console.log(goalInput());
 
 
 
