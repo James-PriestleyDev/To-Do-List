@@ -15,17 +15,24 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    <h1>What will you achieve today?</h1>
-    <h2>Goals for today:</h2>
-    <input type="text" id="userInput" placeholder="Add todays goal"/>
-    <button class="btn" onclick="goalInput()">+</button>
-    <ul id="goals">
-        
-    </ul>
+ <div class="container">
+    <div class="title-box">
+        <h1>What will you achieve today?</h1>
+        <h2>Goals for today:</h2>
+        <div class="goals">
+            <input type="text" id="user-input" placeholder="Add todays goal"/>
+            <button id="btn" onclick="goalInput()">+</button>
+        </div>    
+        <ul id="goal-input">
+            <li class="completed"></li>
+        </ul>
+    </div>        
+</div>
 
-    <div id="tally">
-        <p>Total outstanding goals:<span> 0</span></p>
-    </div>
+   
+        <div id="tally">
+            <p>Total outstanding goals:<span> 0</span></p>
+        </div>
 
 
     <!-- Links JS to the html page -->
