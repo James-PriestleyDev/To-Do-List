@@ -1,7 +1,35 @@
+const openModalButtons = document.querySelectorAll('[data-modal-target]')
+const closeModalButtons = document.querySelectorAll('[data-close-button]')
+const overlay = document.getElementById('overlay')
+
+openModalButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        const modal = document.querySelector(button.dataset.modalTarget)
+        openModal(modal)
+    })
+})
+
+closeModalButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        const modal = button.closest('.modal')
+        closeModal(modal)
+    })
+})
+
+// function openModal(modal) {
+   // if (modal == null) return
+    //modal.classList.add('active')
+    //overlay.classList.add('active')
+//}    
+
+function closeModal(modal) {
+    if (modal == null ) return
+   modal.classList.remove('active')
+  overlay.classList.remove('active')
+}
+
 const userInput = document.getElementById("user-input");
 const input = document.getElementById("goal-input");
-const modal = document.getElementById("goals");
-const btn = document.getElementById("btn");
 
 /**
  * This will take the users input and display the text to the webapp
@@ -9,7 +37,8 @@ const btn = document.getElementById("btn");
  */
 function goalInput() {
     if (userInput.value === ''){
-        ;
+        modal.classList.add('active')
+        overlay.classList.add('active')
         }
      else {
         let li = document.createElement("li");
@@ -37,10 +66,7 @@ function removeTask() {
  * and show the results on the webapp
  */
 function inputTally() {
-    let tally = document.getElementsByClassName("btn");
-    addEventListener.tally("click")
-    let totalItems = listItems.length;
-    tally.innerHTML = totalItems;
+    
 
 }
 

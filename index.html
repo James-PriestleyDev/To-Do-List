@@ -21,19 +21,7 @@
         <h2>Goals for today:</h2>
         <div id="goals">
             <input type="text" id="user-input" placeholder="Add todays goal"/>
-            <button id="btn" onclick="goalInput()">+</button>
-            <div class="modal" id="modal">
-                <div class="modal-header">
-                    <div class="title">Ooopsie! Something went wrong!</div>
-                    <button class="modal-close">&times;</button>
-                </div>
-                <div class="modal-body">
-                    You have encountered an error. This is because you have not entered a goal prior to 
-                    hitting submit. Please close this window, and try again.
-                </div>
-            </div>
-            <div id="overlay"></div>
-        </div>   
+            <button data-modal-target="#modal" onclick="goalInput()">+</button>   
         <ul id="goal-input">
             <li class="completed"></li>
         </ul>
@@ -50,6 +38,17 @@
             <p>Total outstanding goals:<span> 0</span></p>
         </div>
 
+        <div class="modal" id="modal">
+            <div class="modal-header">
+                <div class="title">Ooopsie! Something went wrong!</div>
+                <button data-close-button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                Please enter a goal!
+            </div>
+        </div>
+        <div id="overlay"></div>
+    </div>
 
     <!-- Links JS to the html page -->
     <script src="assets/js/script.js"></script>
