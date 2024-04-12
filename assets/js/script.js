@@ -9,7 +9,7 @@ const btn = document.getElementById("btn");
  */
 function goalInput() {
     if (userInput.value === ''){
-        alert("Please add a goal prior to submitting!");
+        ;
         }
      else {
         let li = document.createElement("li");
