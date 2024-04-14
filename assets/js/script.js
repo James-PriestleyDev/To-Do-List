@@ -1,3 +1,5 @@
+//The code for creating the modal was taken from 'https://www.youtube.com/watch?v=MBaw_6cPmAw'
+
 
 // calls a variable which selects all data-modal-target
 const openModalButtons = document.querySelectorAll('[data-modal-target]')
@@ -40,7 +42,7 @@ function closeModal(modal) {
   overlay.classList.remove('active')
 }
 
-//These are const to tell the computer that these variables can not be changed and that they are constant.
+
 const userInput = document.getElementById("user-input");
 const input = document.getElementById("goal-input");
 
@@ -62,6 +64,7 @@ function goalInput() {
         span.innerHTML = "Complete";
         li.appendChild(span);
         inputTally();
+        removeTask();
     }
 }
 
@@ -69,14 +72,12 @@ function goalInput() {
 
 /**
  * This function will remove the users list item
- * and provide a celebratory alert message
  * once they have completed a task.
  */
-function removeTask() {
-    let completeGoal = document.getElementsByTagName("span");
-    completeGoal.addEventListener("click")
-    console.log("works!");
+let completeGoal = document.getElementsByTagName("span").addEventListener("click");
 
+function removeTask() {
+    completeGoal.remove();
     completeTasks();
 }
 
