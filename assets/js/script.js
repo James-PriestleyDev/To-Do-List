@@ -39,7 +39,7 @@ closeModalButtons.forEach(button => {
 function closeModal(modal) {
     if (modal == null ) return
    modal.classList.remove('active')
-  overlay.classList.remove('active')
+   overlay.classList.remove('active')
 }
 
 //These are const to tell the computer that these variables can not be changed and that they are constant.
@@ -62,6 +62,7 @@ function goalInput() {
         input.appendChild(li);
         let span = document.createElement("span");
         span.innerHTML = "Complete";
+        span.classList.add("delete");
         li.appendChild(span);
         inputTally();
     }
@@ -73,11 +74,12 @@ function goalInput() {
  * This function will remove the users list item
  * once they have completed a task.
  */
+function removeTask(){
 
-function removeTask() {
-    completeGoal.remove();
-    completeTasks();
+
 }
+
+
 
 /**
  * This function will tally up the users inputs 
