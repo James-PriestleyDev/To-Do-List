@@ -42,7 +42,7 @@ function closeModal(modal) {
   overlay.classList.remove('active')
 }
 
-
+//These are const to tell the computer that these variables can not be changed and that they are constant.
 const userInput = document.getElementById("user-input");
 const input = document.getElementById("goal-input");
 
@@ -64,7 +64,6 @@ function goalInput() {
         span.innerHTML = "Complete";
         li.appendChild(span);
         inputTally();
-        removeTask();
     }
 }
 
@@ -74,7 +73,6 @@ function goalInput() {
  * This function will remove the users list item
  * once they have completed a task.
  */
-let completeGoal = document.getElementsByTagName("span").addEventListener("click");
 
 function removeTask() {
     completeGoal.remove();
