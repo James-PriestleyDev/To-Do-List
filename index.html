@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
+
+    <!-- Main body of HTML for the user to input their goals -->
  <div class="container">
     <div class="title-box">
         <h1>What will you achieve today?</h1>
@@ -29,15 +31,17 @@
             
 </div>
 
-   
+        <!-- This is the HTML for the completed/outstanding goals of the user. The classes to the spans help target each individual integer
+            for incrementing the numbers of items on the users lists. -->
         <div id="completed-tally">
-            <p>Total completed goals:<span> 0</span></p>
+            <p>Total completed goals:<span id="completed"> 0</span></p>
         </div>
 
         <div id="outstanding-tally">
-            <p>Total outstanding goals:<span> 0</span></p>
+            <p>Total outstanding goals:<span id="outstanding"> 0</span></p>
         </div>
 
+        <!-- This is the HTML for the modal which will pop-up when an empty input is submitted -->
         <div class="modal" id="modal">
             <div class="modal-header">
                 <div class="title">Ooopsie! Something went wrong!</div>
