@@ -89,6 +89,7 @@ function removeTask() {
         let div = this.parentElement;
         div.style.display = "none";
         completeTasks();
+        completeScore();
       }
     } 
 }    
@@ -108,10 +109,11 @@ function inputTally() {
  * and show the users completed tasks (This was taken from "Love Maths" walkthrough on CI.)
  */
 function completeTasks() {
-    let outstanding = parseInt(document.getElementById("completed").innerHTML);
-    document.getElementById("completed").innerHTML = ++outstanding;
+    let complete = parseInt(document.getElementById("completed").innerHTML);
+    document.getElementById("completed").innerHTML = ++complete;
 }
 
 function completeScore() {
-    
+    let score = parseInt(document.getElementById("outstanding").innerHTML);
+    document.getElementById("outstanding").innerHTML = --score;
 }
