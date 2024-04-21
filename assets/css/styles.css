@@ -7,11 +7,14 @@
     box-sizing: border-box;
 }
 
-.container {
+body {
     margin: 25px;
-    text-align: center;
     background-color: lightblue;
     border-radius: 25px;
+}
+
+.container {
+    text-align: center;
 }
 
 .title-box {
@@ -34,12 +37,19 @@
 }
 
 .user-goals {
+    display: flex;
+    justify-content: space-between;
     padding: 5px;
     border-radius: 25px;
+    border: solid black;
     background-color: lightgrey;
-    width:25%;
+    width:100%;
 }
 
+.complete {
+    padding: 3px;
+    border-radius: 50px;
+}
 
 #goal-button {
     padding: 3px;
@@ -52,11 +62,11 @@ li button {
 
 
 #completed-tally {
-    padding: 25px;
+    padding: 5px;
 }
 
 #outstanding-tally {
-    padding: 25px;
+    padding: 5px; 
 }
 
 /* The code for styling the modal was taken from 'https://www.youtube.com/watch?v=MBaw_6cPmAw' */
