@@ -1,3 +1,5 @@
+
+
 /* Asterisk wildcard selector to override default styles added by the browser (used from PP1 - CI)*/
 * {
     padding: 0;
@@ -21,17 +23,26 @@
     padding: 25px;
 }
 
+#user-input {
+    padding: 5px;
+    border-radius: 25px;
+}
+
 #goal-input {
     padding: 25px;
     list-style: none;
 }
 
-#user-goals {
-    padding:25px;
+.user-goals {
+    padding: 5px;
+    border-radius: 25px;
+    background-color: lightgrey;
+    width:25%;
 }
 
 
 #goal-button {
+    padding: 3px;
     border-radius: 25px;
 }
 

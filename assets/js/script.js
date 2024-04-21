@@ -61,6 +61,7 @@ function goalInput() {
      else {
         let li = document.createElement("li");
         li.innerHTML = userInput.value;
+        li.classList.add("user-goals")
         input.appendChild(li);
         let btn = document.createElement("button");
         btn.innerHTML = "&times;";
