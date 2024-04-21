@@ -1,3 +1,24 @@
+/* Asterisk wildcard selector to override default styles added by the browser (used from PP1 - CI)*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
 .modal {
     position: fixed; /* So the modal doesn't move when the user scrolls up/down */
     top: 50%;
@@ -58,49 +79,4 @@
     opacity: 1;
     pointer-events: all;
 
-}
-
-body {
-    text-align: center;
-}
-
-li {
-    list-style: none;
-    color: green;
-}
-
-button {
-    cursor: pointer;
-    background-color: yellow;
-    border-radius: 25px;
-}
-
-.complete {
-    background-color: green;
-    font-weight: bold;
-    padding: 5px;
-    cursor: pointer;
-    border-radius: 25px;
-}
-
-.delete {
-    background-color: red;
-    font-weight: bold;
-    padding: 5px;
-    cursor: pointer;
-    border-radius: 25px;
-}
-
-#outstanding {
-    color: black;
-    padding: 5px;
-    cursor: default;
-    font-weight: bold;
-}
-
-#completed {
-    color: black;
-    padding: 5px;
-    cursor: default;
-    font-weight: bold;
 }

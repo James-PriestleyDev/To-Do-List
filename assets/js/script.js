@@ -63,13 +63,9 @@ function goalInput() {
         li.innerHTML = userInput.value;
         input.appendChild(li);
         let btn = document.createElement("button");
-        btn.innerHTML = "&#10004";
-        btn.classList.add("complete");
+        btn.innerHTML = "&times;";
+        btn.classList.add("complete")
         li.appendChild(btn);
-        let btnDelete = document.createElement("button");
-        btnDelete.innerHTML = "&times;";
-        btnDelete.classList.add("delete")
-        li.appendChild(btnDelete);
         inputTally();
     }
     removeTask();    
@@ -79,17 +75,18 @@ function goalInput() {
 
 /**
  * This function will remove the users list item
- * once they have completed a task.
+ * once they have completed a task. This code was 
+ * used from w3schools
  */
 function removeTask() {
-    let close = document.getElementsByClassName("delete");
+    let close = document.getElementsByClassName("complete");
     let i;
     for (i = 0; i < close.length; i++) {
       close[i].onclick = function() {
         let div = this.parentElement;
         div.style.display = "none";
         completeTasks();
-        completeScore();
+        completeScore(); 
       }
     } 
 }    
@@ -113,7 +110,16 @@ function completeTasks() {
     document.getElementById("completed").innerHTML = ++complete;
 }
 
+/**
+ * This function will decrease the number of outstanding goals
+ * once a goal has been complated by the user. (This was inspired 
+ * by the code from "Love Maths" walkthrough on CI.)
+ */
 function completeScore() {
     let score = parseInt(document.getElementById("outstanding").innerHTML);
     document.getElementById("outstanding").innerHTML = --score;
 }
+
+
+// Future implementations will be to add a tick box which checks the completed item, freeing up the x button to simply be there to remove
+// goals. Which will add further UX
