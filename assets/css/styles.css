@@ -8,13 +8,36 @@
 .container {
     margin: 25px;
     text-align: center;
+    background-color: lightblue;
+    border-radius: 25px;
+}
+
+.title-box {
+    margin: 25px;
+    padding: 25px;
+}
+
+#goals {
+    padding: 25px;
+}
+
+#goal-input {
+    padding: 25px;
+    list-style: none;
+}
+
+#user-goals {
+    padding:25px;
 }
 
 
+#goal-button {
+    border-radius: 25px;
+}
 
-
-
-
+li button {
+    border-radius: 25px;
+}
 
 
 
