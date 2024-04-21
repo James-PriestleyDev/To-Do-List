@@ -40,9 +40,15 @@ li button {
 }
 
 
+#completed-tally {
+    padding: 25px;
+}
 
+#outstanding-tally {
+    padding: 25px;
+}
 
-
+/* The code for styling the modal was taken from 'https://www.youtube.com/watch?v=MBaw_6cPmAw' */
 .modal {
     position: fixed; /* So the modal doesn't move when the user scrolls up/down */
     top: 50%;
