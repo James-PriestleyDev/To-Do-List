@@ -10,12 +10,12 @@ const overlay = document.getElementById('overlay')
 /**
  * This creates the function for the modal to appear once an item is clicked.
  */
-openModalButtons.forEach(button => {
-    button.addEventListener('click', () => {
-        const modal = document.querySelector(button.dataset.modalTarget)
-        openModal(modal)
-    })
-})
+//openModalButtons.forEach(button => {
+   // button.addEventListener('click', () => {
+        //const modal = document.querySelector(button.dataset.modalTarget)
+       // openModal(modal)
+    //})
+//})
 
 /**
  * This creates the functionanlity for the close button.
@@ -27,8 +27,8 @@ closeModalButtons.forEach(button => {
     })
 })
 
-// function openModal(modal) {
-   // if (modal == null) return
+//function openModal(modal) {
+  // if (modal == null) return
     //modal.classList.add('active')
     //overlay.classList.add('active')
 //}    
@@ -41,6 +41,8 @@ function closeModal(modal) {
    modal.classList.remove('active')
    overlay.classList.remove('active')
 }
+
+
 
 //These are const to tell the computer that these variables can not be changed and that they are constant.
 const userInput = document.getElementById("user-input");
@@ -60,12 +62,17 @@ function goalInput() {
         let li = document.createElement("li");
         li.innerHTML = userInput.value;
         input.appendChild(li);
-        let span = document.createElement("span");
-        span.innerHTML = "Complete";
-        span.classList.add("delete");
-        li.appendChild(span);
+        let btn = document.createElement("button");
+        btn.innerHTML = "&#10004";
+        btn.classList.add("complete");
+        li.appendChild(btn);
+        let btnDelete = document.createElement("button");
+        btnDelete.innerHTML = "&times;";
+        btnDelete.classList.add("delete")
+        li.appendChild(btnDelete);
         inputTally();
     }
+    removeTask();    
 }
 
 
@@ -74,12 +81,17 @@ function goalInput() {
  * This function will remove the users list item
  * once they have completed a task.
  */
-function removeTask(){
-
-
-}
-
-
+function removeTask() {
+    let close = document.getElementsByClassName("delete");
+    let i;
+    for (i = 0; i < close.length; i++) {
+      close[i].onclick = function() {
+        let div = this.parentElement;
+        div.style.display = "none";
+        completeTasks();
+      }
+    } 
+}    
 
 /**
  * This function will tally up the users inputs 
@@ -98,4 +110,8 @@ function inputTally() {
 function completeTasks() {
     let outstanding = parseInt(document.getElementById("completed").innerHTML);
     document.getElementById("completed").innerHTML = ++outstanding;
+}
+
+function completeScore() {
+    
 }

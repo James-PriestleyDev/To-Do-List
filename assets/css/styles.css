@@ -74,11 +74,18 @@ button {
     background-color: yellow;
 }
 
-span {
+.complete {
+    background-color: green;
     font-weight: bold;
     padding: 5px;
     cursor: pointer;
-    color: blue;
+}
+
+.delete {
+    background-color: red;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
 }
 
 #outstanding {
