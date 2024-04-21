@@ -8,16 +8,6 @@ const closeModalButtons = document.querySelectorAll('[data-close-button]')
 const overlay = document.getElementById('overlay')
 
 /**
- * This creates the function for the modal to appear once an item is clicked.
- */
-//openModalButtons.forEach(button => {
-   // button.addEventListener('click', () => {
-        //const modal = document.querySelector(button.dataset.modalTarget)
-       // openModal(modal)
-    //})
-//})
-
-/**
  * This creates the functionanlity for the close button.
  */
 closeModalButtons.forEach(button => {
@@ -26,12 +16,6 @@ closeModalButtons.forEach(button => {
         closeModal(modal)
     })
 })
-
-//function openModal(modal) {
-  // if (modal == null) return
-    //modal.classList.add('active')
-    //overlay.classList.add('active')
-//}    
 
 /**
  * This function will remove the modal from the screen once the user clicks the close button.

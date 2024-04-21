@@ -29,6 +29,7 @@ body {
 #user-input {
     padding: 5px;
     border-radius: 25px;
+    
 }
 
 #goal-input {
@@ -44,6 +45,7 @@ body {
     border: solid black;
     background-color: lightgrey;
     width:100%;
+    
 }
 
 .complete {
