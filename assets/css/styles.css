@@ -168,6 +168,11 @@ li button {
 
 }
 
+/* Media query: small mobile phones (320px and up) */
+@media screen and (min-width: 320px) {
+    
+}
+
 
 /* Media query: medium mobile phones (375px and up) */
 @media screen and (min-width: 375px) {
