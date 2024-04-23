@@ -90,10 +90,20 @@ li button {
 
 #completed-tally {
     padding: 5px;
+    font-size: 1.5rem;
 }
 
 #outstanding-tally {
     padding: 5px; 
+    font-size: 1.5rem;
+}
+
+#completed {
+    color: green;
+}
+
+#outstanding {
+    color: red;
 }
 
 /* The code for styling the modal was taken from 'https://www.youtube.com/watch?v=MBaw_6cPmAw' */
