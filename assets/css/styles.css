@@ -15,6 +15,20 @@ body {
     border-radius: 25px;
 }
 
+/* Styled text elements */
+h1 {
+    font-family: "Rubik", sans-serif;
+}
+
+h2 {
+    font-family: "Rubik", sans-serif;
+}
+
+p {
+    font-family: "Rubik", sans-serif;
+}
+
+/* Style for main elemnts of the page */
 .container {
     text-align: center;
 }
@@ -37,6 +51,7 @@ body {
 #goal-input {
     padding: 25px;
     list-style: none;
+    font-family: "Rubik", sans-serif;
 }
 
 .user-goals {
