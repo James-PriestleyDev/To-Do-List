@@ -53,12 +53,16 @@ body {
     border: 0;
     background-color: lightgrey;
     font-size: 1.5rem;
+    cursor: pointer;
 
 }
 
 #goal-button {
     padding: 3px;
-    border-radius: 25px;
+    border: 0;
+    background-color: lightblue;
+    font-size: 1.5rem;
+    cursor: pointer;
 }
 
 li button {
