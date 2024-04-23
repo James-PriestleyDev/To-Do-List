@@ -1,4 +1,4 @@
-//The code for creating the modal was taken from 'https://www.youtube.com/watch?v=MBaw_6cPmAw'
+//The code for creating the modal was taken/inspired from 'https://www.youtube.com/watch?v=MBaw_6cPmAw'
 
 
 // calls a variable which selects all data-modal-target

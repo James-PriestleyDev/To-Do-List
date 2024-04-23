@@ -167,3 +167,33 @@ li button {
     pointer-events: all;
 
 }
+
+
+/* Media query: medium mobile phones (375px and up) */
+@media screen and (min-width: 375px) {
+
+ 
+ }
+ 
+ /* Media query: large mobile phones (425px and up) */
+ @media screen and (min-width: 425px) {
+ 
+ 
+ }
+ 
+ /* Media query: tablet devices (768px and up) */
+ @media screen and (min-width: 768px) {
+
+ 
+ }
+ 
+ /* Media query: laptop devices (1024px and up) */
+ @media screen and (min-width: 1024px) {
+     
+ 
+ }
+ 
+ /* Media query: large laptop devices (1440px and up) */
+ @media screen and (min-width: 1024px) {
+     
+ }
