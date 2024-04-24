@@ -25,12 +25,11 @@
     <div class="title-box">
         <h1>What will you achieve today?</h1>
         <div id="goals">
-            <input type="text" id="user-input" placeholder="Add todays goal"/>
+            <input type="text" id="user-input" placeholder="Add todays goal" aria-label="Input field for the user to enter their goal to add to their list"/>
             <button data-modal-target="#modal" id="goal-button" onclick="goalInput()">+</button>   
         <ul id="goal-input">
         </ul>
     </div>
-            
 </div>
 
         <!-- This is the HTML for the completed/outstanding goals of the user. The classes to the spans help target each individual integer
@@ -41,6 +40,10 @@
 
         <div id="outstanding-tally">
             <p>Total outstanding goals:<span id="outstanding"> 0</span></p>
+        </div>
+
+        <div id="description">
+            <p></p>
         </div>
 
         <!-- This is the HTML for the modal which will pop-up when an empty input is submitted -->
@@ -55,7 +58,16 @@
         </div>
         <div id="overlay"></div>
     </div>
+
+    <footer>
+        <ul id="social-networks">
+            <li>
+                <a href="https://github.com/James-PriestleyDev" target="_blank" rel="noopener"
+                 aria-label="Visit the creators GitHub (opens in a new tab)"><i class="fa-brands fa-github"></i></a>
+                </li>
+    </footer>
     
+    <script src="https://kit.fontawesome.com/243492298f.js" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>    
 </body>
 </html>
