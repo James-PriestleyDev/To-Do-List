@@ -66,10 +66,10 @@ to become ignored by the PC.
 HTML
 - There was an error when first validating the HTML as I left a '/' on line 29 and 2 floating </divs>.
  After removing this my HTML passed with no errors.
-![Image of results from the webapp being ran through W3 validator]()
+![Image of results from the webapp being ran through W3 validator](assets/docs/pp2-html-validated.PNG)
 CSS
 - No errors in the CSS when checking it with the offical W3C validator.
-![Image of results from the webapp being ran through W3C validator]()
+![Image of results from the webapp being ran through W3C validator](assets/docs/pp2-css-validated.PNG)
 JSS
 - The one warning which I got with my JS when putting it through JShint was for functions being declared within loops. However, I do not have loops
   and with that being said the JS has not provided any internal issues with the webapp nor is there any issues shown in the console of the devtools.
@@ -80,10 +80,10 @@ JSS
   I can prove this by the testing which I have done where I have removed both the 'modal' and the 'goalInput()' from my JS and the result
   of doing this was that neither the modal or the function worked. Putting the 'modal' and the 'goalInput()' back into my JS made the function
   and modal work as intended again.
-![Image of the results from the js being checked through JShint]()
+![Image of the results from the js being checked through JShint](assets/docs/pp2-jshint.PNG)
 Lighthouse tool check
 - 
-![Image of results from the webapp being ran through Lighthouse in devtools]()
+![Image of results from the webapp being ran through Lighthouse in devtools](assets/docs/pp2-lighthouse.PNG)
 
 ### Deployment
 
