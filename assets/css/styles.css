@@ -378,7 +378,7 @@ footer {
  /* Media query: large laptop devices (1440px and up) */
  @media screen and (min-width: 1024px) {
     #user-input {
-        padding: 5px;
+        padding: 10px;
         border-radius: 0px;
         width: 25%;
     }
