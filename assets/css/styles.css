@@ -9,13 +9,6 @@
     box-sizing: border-box;
 }
 
-/* Make main element take up any surplus space to push footer down - this code was inspired by the
-    Love Running project by Code Institute */
-    main {
-        flex: 1 0 auto;
-        position: absolute;
-    }
-
 body {
     margin: 25px;
     background: linear-gradient(to right, lightblue, white);
@@ -139,8 +132,9 @@ li button {
 }
 
 /* The code for styling the modal was taken from 'https://www.youtube.com/watch?v=MBaw_6cPmAw' */
+
 .modal {
-    position: fixed; /* So the modal doesn't move when the user scrolls up/down */
+    position: fixed; 
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
