@@ -315,6 +315,28 @@ footer {
  
  /* Media query: tablet devices (768px and up) */
  @media screen and (min-width: 768px) {
+    .title-box {
+        margin: 25px;
+        padding: 25px;
+        font-size: 1.5rem;
+    }
+    
+    #completed-tally {
+        padding: 5px;
+        font-size: 1.5rem;
+    }
+    
+    #outstanding-tally {
+        padding: 5px; 
+        font-size: 1.5rem;
+    }
+    
+    #description {
+        font-size: 1.5rem;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
     #user-input {
         padding: 0px;
         border-radius: 0px;
