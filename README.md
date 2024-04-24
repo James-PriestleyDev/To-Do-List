@@ -65,12 +65,16 @@ to become ignored by the PC.
 
 HTML
 - There was an error when first validating the HTML as I left a '/' on line 29. After removing this my HTML passed with no errors.
+![Image of results from the webapp being ran through W3 validator]()
 CSS
 - No errors in the CSS when checking it with the offical W3C validator.
+![Image of results from the webapp being ran through W3C validator]()
+JSS
+- 
+![Image of the results from the js being validated through JShint]()
 Lighthouse tool check
 - 
-
-![Image of results from the website being ran through Lighthouse in devtools]{docs/lighthouse.PNG}
+![Image of results from the webapp being ran through Lighthouse in devtools]()
 
 ### Deployment
 
