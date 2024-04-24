@@ -8,7 +8,7 @@ The site is targeted towards people of any age, sex, gender, culture who are wan
 
 ### Website Responsiveness
 
-![Image of my website shown through varied view ports]()
+![Image of my website shown through varied view ports](assets/docs/pp2-respnsive.PNG)
 
 ### FEATURES
 
@@ -16,25 +16,25 @@ Webapp displaying page with no entries
 
 
 
-![Image of the webapp with no user inputs]()
+![Image of the webapp with no user inputs](assets/docs/pp2-no-inputs.PNG)
 
 Webapp displaying listed items and tally of outstanding goals
 
 
 
-![Image of the webapp with user inputs]()
+![Image of the webapp with user inputs](assets/docs/pp2-with-inputs.PNG)
 
 Webapp displaying completed items and the tally of completed goals
 
 
 
-![Image of the webapp with completed user inputs]()
+![Image of the webapp with completed user inputs](assets/docs/pp2-completed.PNG)
 
 Modal (warning pop-up)
 
 
 
-![Image of the websites sign-up page (newsletter.html)]()
+![Image of the websites sign-up page (newsletter.html)](assets/docs/pp2-modal.PNG)
 
 Footer
 
@@ -42,7 +42,7 @@ At the bottom of each page there is the footer.
 The footer holds the text content which displays who created the webapp and also holds a link to my Github page if the user wanted
 to see what other works me, the creator has made
 
-![Image of the websites footer which holds the name of the creator and my Github link]()
+![Image of the websites footer which holds the name of the creator and my Github link](assets/docs/pp2-footer.PNG)
 
 ### Testing
 
@@ -53,7 +53,7 @@ I confirm that all elements of the website are easy to read and easy to understa
 I have confirmed that the functions made in JS work by testing the website with different user inputs and with attempting to submit with no
 user input to see if the pop-up warning works, which it does.
 
-![Image of the modal warning the user that they have not entered a goal into the input box]()
+![Image of the modal warning the user that they have not entered a goal into the input box](assets/docs/pp2-modal.PNG)
 
 ### Bugs
 
