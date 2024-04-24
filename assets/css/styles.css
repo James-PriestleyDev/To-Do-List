@@ -86,11 +86,13 @@ p {
 #completed-tally {
     padding: 5px;
     font-size: 1.5rem;
+    text-align: center;
 }
 
 #outstanding-tally {
     padding: 5px; 
     font-size: 1.5rem;
+    text-align: center;
 }
 
 #completed {
@@ -104,6 +106,7 @@ p {
 #description {
     padding-top: 50px;
     padding-bottom: 50px;
+    text-align: center;
 }
 
 /* Styling of footer / div in footer and the a element */

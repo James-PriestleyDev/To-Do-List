@@ -64,14 +64,23 @@ to become ignored by the PC.
 ### Validator Testing
 
 HTML
-- There was an error when first validating the HTML as I left a '/' on line 29. After removing this my HTML passed with no errors.
+- There was an error when first validating the HTML as I left a '/' on line 29 and 2 floating </divs>.
+ After removing this my HTML passed with no errors.
 ![Image of results from the webapp being ran through W3 validator]()
 CSS
 - No errors in the CSS when checking it with the offical W3C validator.
 ![Image of results from the webapp being ran through W3C validator]()
 JSS
-- 
-![Image of the results from the js being validated through JShint]()
+- The one warning which I got with my JS when putting it through JShint was for functions being declared within loops. However, I do not have loops
+  and with that being said the JS has not provided any internal issues with the webapp nor is there any issues shown in the console of the devtools.
+  Other than the warning which I have received for my JS I have also got one 'One undefined variable' and 'One unused variable' both of these are being
+  used by the JS code. 
+  The 'Undefiend variable' is the modal and it is used to open the modal if the user attempts to submit an empty input box.
+  The 'Unused variable' is the goalInput() which is the main function on the webapp. This is also being used and works.
+  I can prove this by the testing which I have done where I have removed both the 'modal' and the 'goalInput()' from my JS and the result
+  of doing this was that neither the modal or the function worked. Putting the 'modal' and the 'goalInput()' back into my JS made the function
+  and modal work as intended again.
+![Image of the results from the js being checked through JShint]()
 Lighthouse tool check
 - 
 ![Image of results from the webapp being ran through Lighthouse in devtools]()
@@ -89,7 +98,7 @@ The live link can be found here: https://james-priestleydev.github.io/pp2/
 
 Reference for favicon image:
 
-----------------------
+The favicon image was taken from: https://favicon.io/emoji-favicons/
 
 Footer:
 
@@ -97,4 +106,4 @@ Footer:
 
 README.md
 
-- The structure and layout of the README.md was taken from the SAMPLE README.md provided by Code Institute in the PP1 module of their course. 
+- The structure and layout of the README.md was taken from the SAMPLE README.md provided by Code Institute in the PP1 module of the course. 
