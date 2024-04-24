@@ -53,7 +53,7 @@ function goalInput() {
         li.appendChild(btn);
         inputTally();
     }
-    removeTask();    
+    removeTask();   
 }
 
 
@@ -83,7 +83,6 @@ function removeTask() {
 function inputTally() {
     let outstanding = parseInt(document.getElementById("outstanding").innerHTML);
     document.getElementById("outstanding").innerHTML = ++outstanding;
-
 }
 
 /**
