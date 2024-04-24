@@ -109,26 +109,19 @@ li button {
     margin-top: 100px;
 }
 
-/* styling of the social media links in the footer */
-#social-networks {
-    padding: 10px;
-    width: 100%;
-    background-color: linear-gradient(to right, lightblue, white);
-    color: black;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    z-index: 10;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    font-size: 1.5rem;
+/* Styling of footer / div in footer and the a element */
+footer {
+    text-align: center;
 }
 
-/* Styling of the social media links in the footer */
-#social-networks a {
+#description {
+    margin-top: 50px;
+}
+
+#description a {
     color: inherit;
     text-decoration: none;
+    font-size: 1.5rem;
 }
 
 /* The code for styling the modal was taken from 'https://www.youtube.com/watch?v=MBaw_6cPmAw' */
@@ -202,8 +195,8 @@ li button {
 }
 
 .title-box {
-    margin: 25px;
-    padding: 25px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 #goals {
@@ -211,15 +204,14 @@ li button {
 }
 
 #user-input {
-    padding: 5px;
-    border-radius: 25px;
-    
+    padding: 0px;
+    border-radius: 0px;
+    width: 75%;
 }
 
 #goal-input {
     padding: 25px;
     list-style: none;
-    font-family: "Rubik", sans-serif;
 }
 
 #goal-button {
@@ -234,10 +226,10 @@ li button {
     display: flex;
     justify-content: space-between;
     padding: 5px;
-    border-radius: 25px;
+    border-radius: 0px;
     border: solid black;
     background-color: lightgrey;
-    width:100%;
+    width:200%;
     margin-bottom: 10px;
     
 }
@@ -251,19 +243,16 @@ li button {
 
 }
 
-li button {
-    border-radius: 25px;
-}
 
 /*Styling for the tally and description section of the webapp */
 #completed-tally {
     padding: 5px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 #outstanding-tally {
     padding: 5px; 
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 #completed {
@@ -274,34 +263,23 @@ li button {
     color: red;
 }
 
+/* Styling of footer / div in footer and the a element */
+footer {
+    text-align: center;
+}
+
 #description {
-    margin-top: 100px;
+    flex: display;
+    margin-top: 50px;
 }
 
-/* styling of the social media links in the footer */
-#social-networks {
-    padding: 10px;
-    width: 100%;
-    background-color: linear-gradient(to right, lightblue, white);
-    color: black;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    z-index: 10;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    font-size: 1.5rem;
-}
-
-/* Styling of the social media links in the footer */
-#social-networks a {
+#description a {
     color: inherit;
     text-decoration: none;
+    font-size: 1.5rem;
 }
     
 }
-
 
 /* Media query: medium mobile phones (375px and up) */
 @media screen and (min-width: 375px) {
