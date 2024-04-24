@@ -94,11 +94,24 @@ Lighthouse tool check
 
 The live link can be found here: https://james-priestleydev.github.io/pp2/
 
+### Future Implementations
+
+I have a few ideas which I would like to add to the webapp if I had more time.
+These are having the input field empty itself once the user has submitted their input.
+Adding a timestamp to the users input to further add user experience to the webapp and allowing the user to know
+when they added their goal.
+Creating a way for the user to be able to add a due date for the goal they have inputted - allowing the user to
+set themselves a deadline to achieve that specific goal.
+
+
 ### CREDITS
 
 Reference for favicon image:
 
 The favicon image was taken from: https://favicon.io/emoji-favicons/
+
+All code which I have taken inspiration from or used to aid me with completing pp2 have comments above the code referring to the source
+i used when writing it. 
 
 Footer:
 
@@ -107,3 +120,11 @@ Footer:
 README.md
 
 - The structure and layout of the README.md was taken from the SAMPLE README.md provided by Code Institute in the PP1 module of the course. 
+
+### Final side note
+
+I would like to bring some attention to the names on 3 of my deployments. These are #13, #14 and #15 to keep a long story short I was struggling 
+and was about to re-make my project all over again thus the name of #13 but before I could start a new project I solved my issue I had been battling
+with for days thus the name of #14. I did make efforts to change the message of these commits and was successful in changing the message of the actual
+commit but.. unfortunately and embarrassingly so I was unable to figure out a way of changing the message on the deployment page. Please do not let
+my hours of madness scupper my chances of passing pp2.
