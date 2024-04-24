@@ -21,16 +21,17 @@
 <body>
 
     <!-- Main body of HTML for the user to input their goals -->
-<div class="container">
-    <div class="title-box">
-        <h1>What will you achieve today?</h1>
-         <div id="goals">
-            <input type="text" id="user-input" placeholder="Input Goals" aria-label="Input field for the user to enter their goal to add to their list"/>
-            <button data-modal-target="#modal" id="goal-button" onclick="goalInput()">+</button>   
-        <ul id="goal-input">
-        </ul>
-    </div>
-</div>
+<main>
+    <div class="container">
+        <div class="title-box">
+            <h1>What will you achieve today?</h1>
+            <div id="goals">
+                <input type="text" id="user-input" placeholder="Input Goals" aria-label="Input field for the user to enter their goal to add to their list"/>
+                <button data-modal-target="#modal" id="goal-button" onclick="goalInput()">+</button>   
+            <ul id="goal-input">
+            </ul>
+        </div>
+    </div>    
 
         <!-- This is the HTML for the completed/outstanding goals of the user. The classes to the spans help target each individual integer
             for incrementing the numbers of items on the users lists. -->
@@ -42,6 +43,10 @@
             <p>Total outstanding goals:<span id="outstanding"> 0</span></p>
         </div>
 
+        <div id="description">
+            <p>Inputting your goals will create a list for you to keep tabs on how your day progresses.</p>
+        </div>    
+</main>
         <!-- This is the HTML for the modal which will pop-up when an empty input is submitted -->
         <div class="modal" id="modal">
             <div class="modal-header">
@@ -56,8 +61,7 @@
     </div>
     
     <footer>
-        <div id="description">
-            <p>Inputting your goals will create a list for you to keep tabs on how your day progresses.</p>
+        <div id="author">
             <p>Created by James Priestley. <a href="https://github.com/James-PriestleyDev" target="_blank" rel="noopener"
                 aria-label="Visit the creators GitHub (opens in a new tab)"><i class="fa-brands fa-github"></i></a></p>
         </div>          

@@ -102,19 +102,24 @@ p {
 }
 
 #description {
-    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 /* Styling of footer / div in footer and the a element */
 footer {
-    text-align: center;
+    width: 100%;
+    background-color:white;
+    color: black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-evenly; 
 }
 
-#description {
-    margin-top: 50px;
-}
-
-#description a {
+#author a {
     color: inherit;
     text-decoration: none;
     font-size: 1.5rem;
@@ -261,15 +266,18 @@ footer {
 
 /* Styling of footer / div in footer and the a element */
 footer {
-    text-align: center;
+    width: 100%;
+    background-color:white;
+    color: black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 99;
+    display: flex;
+    justify-content: space-evenly; 
 }
 
-#description {
-    flex: display;
-    margin-top: 50px;
-}
-
-#description a {
+#author a {
     color: inherit;
     text-decoration: none;
     font-size: 1.5rem;
