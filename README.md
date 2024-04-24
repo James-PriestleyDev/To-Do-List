@@ -8,31 +8,37 @@ The site is targeted towards people of any age, sex, gender, culture who are wan
 
 ### Website Responsiveness
 
+Here is an image of the website shown on varying screen sizes to show it's responsivness.
+
 ![Image of my website shown through varied view ports](assets/docs/pp2-responsive.PNG)
 
 ### FEATURES
 
 Webapp displaying page with no entries
 
-
+This is what the webapp looks like when the user first enters the webapp, there's a brief description of
+the purpose of the webapp for the user to read before they get started with creating their list.
 
 ![Image of the webapp with no user inputs](assets/docs/pp2-no-input.PNG)
 
 Webapp displaying listed items and tally of outstanding goals
 
-
+This is what happens when the user inputs their goals it creates a list for the user and also tracks
+how many goals they have inputted and tells them that they have X amount of goals outstanding.
 
 ![Image of the webapp with user inputs](assets/docs/pp2-with-inputs.PNG)
 
 Webapp displaying completed items and the tally of completed goals
 
-
+This is what happens when the user has completed their tasks the counter on the 'completed goals' goes up with each
+completed goal that the user does.
 
 ![Image of the webapp with completed user inputs](assets/docs/pp2-completed.PNG)
 
 Modal (warning pop-up)
 
-
+This is what happens when the user attempts to submit without entering a goal into the input box.
+A warning appears alerting them that something has gone wrong and that they should enter a goal.
 
 ![Image of the websites sign-up page (newsletter.html)](assets/docs/pp2-modal.PNG)
 
@@ -58,6 +64,8 @@ user input to see if the pop-up warning works, which it does.
 Debugged an issue which I created when adding the google-fonts to my css. 
 I had fogotten to add a ';' to the end of the input resulting in all my css styling 
 to become ignored by the PC.
+
+Images were not displaying in the README.md - this was fixed when I spelt the names of the image correctly.
 
 ### Validator Testing
 
