@@ -315,6 +315,12 @@ footer {
  
  /* Media query: tablet devices (768px and up) */
  @media screen and (min-width: 768px) {
+    #user-input {
+        padding: 2px;
+        border-radius: 0px;
+        width: 25%;
+    }
+    
     .title-box {
         margin: 25px;
         padding: 25px;
@@ -336,30 +342,65 @@ footer {
         padding-top: 50px;
         padding-bottom: 50px;
     }
-
-    #user-input {
-        padding: 0px;
-        border-radius: 0px;
-        width: 25%;
-    }
- 
  }
  
  /* Media query: laptop devices (1024px and up) */
  @media screen and (min-width: 1024px) {
     #user-input {
-        padding: 0px;
+        padding: 5px;
         border-radius: 0px;
         width: 25%;
     }
  
+    .title-box {
+        margin: 25px;
+        padding: 25px;
+        font-size: 2rem;
+    }
+    
+    #completed-tally {
+        padding: 5px;
+        font-size: 2rem;
+    }
+    
+    #outstanding-tally {
+        padding: 5px; 
+        font-size: 2rem;
+    }
+    
+    #description {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 2rem;
+    }
  }
  
  /* Media query: large laptop devices (1440px and up) */
  @media screen and (min-width: 1024px) {
     #user-input {
-        padding: 0px;
+        padding: 5px;
         border-radius: 0px;
         width: 25%;
+    }
+    .title-box {
+        margin: 25px;
+        padding: 25px;
+        font-size: 3rem;
+    }
+    
+    #completed-tally {
+        padding: 5px;
+        font-size: 2rem;
+    }
+    
+    #outstanding-tally {
+        padding: 5px; 
+        font-size: 2rem;
+    }
+    
+    #description {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 2rem;
     }
  }
