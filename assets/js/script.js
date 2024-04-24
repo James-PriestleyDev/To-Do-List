@@ -22,8 +22,6 @@ function closeModal(modal) {
    overlay.classList.remove('active');
 }
 
-
-
 //These are const to tell the computer that these variables can not be changed and that they are constant.
 const userInput = document.getElementById("user-input");
 const input = document.getElementById("goal-input");
@@ -51,8 +49,6 @@ function goalInput() {
     }
     removeTask();   
 }
-
-
 
 /**
  * This function will remove the users list item
@@ -99,9 +95,3 @@ function completeScore() {
     let score = parseInt(document.getElementById("outstanding").innerHTML);
     document.getElementById("outstanding").innerHTML = --score;
 }
-
-// Future implementations will be to add a tick box which checks the completed item, freeing up the x button to simply be there to remove
-// goals. Which will add further UX. I would also like to make it so after every submission the user input clears.
-//Also would like to add a timestamp for each individual entry to allow the user to know when they first set themselves that goal.
-//and finally to allow the user to tag a due date to their task which would also mean I will need to implement the js to be persistent
-// so that when the user refreshes the webpage none of their inputs will be lost.
