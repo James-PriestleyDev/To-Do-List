@@ -194,8 +194,111 @@ li button {
 
 }
 
-/* Media query: small mobile phones (320px and up) */
+/* Media query: small mobile phones (320x480px and up) */
 @media screen and (min-width: 320px) {
+    /* Style for main elements of the page */
+.container {
+    text-align: center;
+}
+
+.title-box {
+    margin: 25px;
+    padding: 25px;
+}
+
+#goals {
+    padding: 25px;
+}
+
+#user-input {
+    padding: 5px;
+    border-radius: 25px;
+    
+}
+
+#goal-input {
+    padding: 25px;
+    list-style: none;
+    font-family: "Rubik", sans-serif;
+}
+
+#goal-button {
+    padding: 3px;
+    border: 0;
+    background: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.user-goals {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 25px;
+    border: solid black;
+    background-color: lightgrey;
+    width:100%;
+    margin-bottom: 10px;
+    
+}
+
+.complete {
+    padding: 3px;
+    border: 0;
+    background-color: lightgrey;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+li button {
+    border-radius: 25px;
+}
+
+/*Styling for the tally and description section of the webapp */
+#completed-tally {
+    padding: 5px;
+    font-size: 1.5rem;
+}
+
+#outstanding-tally {
+    padding: 5px; 
+    font-size: 1.5rem;
+}
+
+#completed {
+    color: green;
+}
+
+#outstanding {
+    color: red;
+}
+
+#description {
+    margin-top: 100px;
+}
+
+/* styling of the social media links in the footer */
+#social-networks {
+    padding: 10px;
+    width: 100%;
+    background-color: linear-gradient(to right, lightblue, white);
+    color: black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+
+/* Styling of the social media links in the footer */
+#social-networks a {
+    color: inherit;
+    text-decoration: none;
+}
     
 }
 
