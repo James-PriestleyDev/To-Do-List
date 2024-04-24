@@ -8,7 +8,7 @@
     margin: 0px;
     box-sizing: border-box;
 }
-
+/* styled background */
 body {
     margin: 25px;
     background: linear-gradient(to right, lightblue, white);
@@ -109,7 +109,7 @@ p {
     text-align: center;
 }
 
-/* Styling of footer / div in footer and the a element */
+/* Styling of footer and the a element */
 footer {
     width: 100%;
     background-color:white;
@@ -129,7 +129,6 @@ footer {
 }
 
 /* The code for styling the modal was taken from 'https://www.youtube.com/watch?v=MBaw_6cPmAw' */
-
 .modal {
     position: fixed; 
     top: 50%;
@@ -194,7 +193,7 @@ footer {
 
 /* Media query: small mobile phones (320x480px and up) */
 @media screen and (min-width: 320px) {
-    /* Style for main elements of the page */
+
 .container {
     text-align: center;
 }
@@ -253,7 +252,6 @@ footer {
     font-weight: bold;
 }
 
-/*Styling for the tally and description section of the webapp */
 #completed-tally {
     padding: 5px;
     font-size: 1.3rem;
@@ -272,7 +270,6 @@ footer {
     color: red;
 }
 
-/* Styling of footer / div in footer and the a element */
 footer {
     width: 100%;
     background-color:white;
@@ -310,7 +307,8 @@ footer {
         border-radius: 0px;
         width: 50%;
     }
-}   
+}
+
  /* Media query: large mobile phones (425px and up) */
  @media screen and (min-width: 425px) {
     #user-input {
@@ -318,7 +316,6 @@ footer {
         border-radius: 0px;
         width: 50%;
     }
- 
  }
  
  /* Media query: tablet devices (768px and up) */
