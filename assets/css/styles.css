@@ -287,38 +287,6 @@ footer {
 
 /* Media query: medium mobile phones (375px and up) */
 @media screen and (min-width: 375px) {
-    .container {
-        text-align: center;
-    }
-    
-    .title-box {
-        margin-bottom: 0px;
-        padding-bottom: 0px;
-    }
-    
-    #goals {
-        padding: 25px;
-    }
-    
-    #user-input {
-        padding: 0px;
-        border-radius: 0px;
-        width: 75%;
-    }
-    
-    #goal-input {
-        padding: 25px;
-        list-style: none;
-    }
-    
-    #goal-button {
-        padding: 3px;
-        border: 0;
-        background: none;
-        font-size: 1.5rem;
-        cursor: pointer;
-    }
-    
     .user-goals {
         display: flex;
         justify-content: space-between;
@@ -326,77 +294,50 @@ footer {
         border-radius: 0px;
         border: solid black;
         background-color: lightgrey;
-        width:200%;
-        margin-bottom: 10px;
-        
+        width:100%;
+        margin-bottom: 10px;    
     }
-    
-    .complete {
-        padding: 3px;
-        border: 0;
-        background-color: lightgrey;
-        font-size: 1.5rem;
-        cursor: pointer;
-    
+    #user-input {
+        padding: 0px;
+        border-radius: 0px;
+        width: 50%;
     }
-    
-    
-    /*Styling for the tally and description section of the webapp */
-    #completed-tally {
-        padding: 5px;
-        font-size: 1.3rem;
-    }
-    
-    #outstanding-tally {
-        padding: 5px; 
-        font-size: 1.3rem;
-    }
-    
-    #completed {
-        color: green;
-    }
-    
-    #outstanding {
-        color: red;
-    }
-    
-    /* Styling of footer / div in footer and the a element */
-    footer {
-        text-align: center;
-    }
-    
-    #description {
-        flex: display;
-        margin-top: 50px;
-    }
-    
-    #description a {
-        color: inherit;
-        text-decoration: none;
-        font-size: 1.5rem;
-    }
- 
- }
- 
+}   
  /* Media query: large mobile phones (425px and up) */
  @media screen and (min-width: 425px) {
- 
+    #user-input {
+        padding: 0px;
+        border-radius: 0px;
+        width: 50%;
+    }
  
  }
  
  /* Media query: tablet devices (768px and up) */
  @media screen and (min-width: 768px) {
-
+    #user-input {
+        padding: 0px;
+        border-radius: 0px;
+        width: 25%;
+    }
  
  }
  
  /* Media query: laptop devices (1024px and up) */
  @media screen and (min-width: 1024px) {
-     
+    #user-input {
+        padding: 0px;
+        border-radius: 0px;
+        width: 25%;
+    }
  
  }
  
  /* Media query: large laptop devices (1440px and up) */
  @media screen and (min-width: 1024px) {
-     
+    #user-input {
+        padding: 0px;
+        border-radius: 0px;
+        width: 25%;
+    }
  }
