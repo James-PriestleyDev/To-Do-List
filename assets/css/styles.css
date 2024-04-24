@@ -35,7 +35,7 @@ p {
     font-family: "Rubik", sans-serif;
 }
 
-/* Style for main elemnts of the page */
+/* Style for main elements of the page */
 .container {
     text-align: center;
 }
@@ -94,7 +94,7 @@ li button {
     border-radius: 25px;
 }
 
-
+/*Styling for the tally and description section of the webapp */
 #completed-tally {
     padding: 5px;
     font-size: 1.5rem;
@@ -111,6 +111,10 @@ li button {
 
 #outstanding {
     color: red;
+}
+
+#description {
+    margin-top: 100px;
 }
 
 /* styling of the social media links in the footer */
