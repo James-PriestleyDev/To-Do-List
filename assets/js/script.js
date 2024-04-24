@@ -1,8 +1,4 @@
 //The code for creating the modal was taken/inspired from 'https://www.youtube.com/watch?v=MBaw_6cPmAw'
-
-
-// calls a variable which selects all data-modal-target
-const openModalButtons = document.querySelectorAll('[data-modal-target]');
 // calls a variable which selects all data-close-button. This will be used when adding a close function to the button.
 const closeModalButtons = document.querySelectorAll('[data-close-button]');
 const overlay = document.getElementById('overlay');
@@ -104,6 +100,8 @@ function completeScore() {
     document.getElementById("outstanding").innerHTML = --score;
 }
 
-
 // Future implementations will be to add a tick box which checks the completed item, freeing up the x button to simply be there to remove
-// goals. Which will add further UX
+// goals. Which will add further UX. I would also like to make it so after every submission the user input clears.
+//Also would like to add a timestamp for each individual entry to allow the user to know when they first set themselves that goal.
+//and finally to allow the user to tag a due date to their task which would also mean I will need to implement the js to be persistent
+// so that when the user refreshes the webpage none of their inputs will be lost.
