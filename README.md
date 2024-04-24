@@ -8,7 +8,7 @@ The site is targeted towards people of any age, sex, gender, culture who are wan
 
 ### Website Responsiveness
 
-![Image of my website shown through varied view ports](assets/docs/pp2-respnsive.PNG)
+![Image of my website shown through varied view ports](assets/docs/pp2-responsive.PNG)
 
 ### FEATURES
 
@@ -16,7 +16,7 @@ Webapp displaying page with no entries
 
 
 
-![Image of the webapp with no user inputs](assets/docs/pp2-no-inputs.PNG)
+![Image of the webapp with no user inputs](assets/docs/pp2-no-input.PNG)
 
 Webapp displaying listed items and tally of outstanding goals
 
@@ -52,8 +52,6 @@ I confirmed that this project works on all standard screen sizes using the devto
 I confirm that all elements of the website are easy to read and easy to understand.
 I have confirmed that the functions made in JS work by testing the website with different user inputs and with attempting to submit with no
 user input to see if the pop-up warning works, which it does.
-
-![Image of the modal warning the user that they have not entered a goal into the input box](assets/docs/pp2-modal.PNG)
 
 ### Bugs
 
