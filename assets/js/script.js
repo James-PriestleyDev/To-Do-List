@@ -2,28 +2,28 @@
 
 
 // calls a variable which selects all data-modal-target
-const openModalButtons = document.querySelectorAll('[data-modal-target]')
+const openModalButtons = document.querySelectorAll('[data-modal-target]');
 // calls a variable which selects all data-close-button. This will be used when adding a close function to the button.
-const closeModalButtons = document.querySelectorAll('[data-close-button]')
-const overlay = document.getElementById('overlay')
+const closeModalButtons = document.querySelectorAll('[data-close-button]');
+const overlay = document.getElementById('overlay');
 
 /**
  * This creates the functionanlity for the close button.
  */
 closeModalButtons.forEach(button => {
     button.addEventListener('click', () => {
-        const modal = button.closest('.modal')
-        closeModal(modal)
-    })
-})
+        const modal = button.closest('.modal');
+        closeModal(modal);
+    });
+});
 
 /**
  * This function will remove the modal from the screen once the user clicks the close button.
  */
 function closeModal(modal) {
-    if (modal == null ) return
-   modal.classList.remove('active')
-   overlay.classList.remove('active')
+    if (modal == null ) return;
+   modal.classList.remove('active');
+   overlay.classList.remove('active');
 }
 
 
@@ -39,17 +39,17 @@ const input = document.getElementById("goal-input");
  */
 function goalInput() {
     if (userInput.value === ''){
-        modal.classList.add('active')
-        overlay.classList.add('active')
+        modal.classList.add('active');
+        overlay.classList.add('active');
         }
      else {
         let li = document.createElement("li");
         li.innerHTML = userInput.value;
-        li.classList.add("user-goals")
+        li.classList.add("user-goals");
         input.appendChild(li);
         let btn = document.createElement("button");
         btn.innerHTML = "&times;";
-        btn.classList.add("complete")
+        btn.classList.add("complete");
         li.appendChild(btn);
         inputTally();
     }
@@ -72,7 +72,7 @@ function removeTask() {
         div.style.display = "none";
         completeTasks();
         completeScore(); 
-      }
+      };
     } 
 }    
 
