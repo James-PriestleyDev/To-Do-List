@@ -88,7 +88,7 @@ JSS
   and modal work as intended again.
 ![Image of the results from the js being checked through JShint](assets/docs/pp2-jshint.PNG)
 Lighthouse tool check
-- 
+- Below are the results from the Lighthouse test
 ![Image of results from the webapp being ran through Lighthouse in devtools](assets/docs/pp2-lighthouse.PNG)
 
 ### Deployment
