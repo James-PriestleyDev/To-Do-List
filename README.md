@@ -2,13 +2,13 @@
 
 The To-Do List webapp is for anyone who is looking for a way to organise their daily goals. Users of this website will be able to enter their goals which they are
 hoping to achieve on that given day and to help them track how many goals they have completed or have outstanding there is a tally on the webapp which counts
-the users outstanding and completed goals.
+the users outstanding and completed goals. This will add value to the users experience as they will be able to track how much they have achieved for that day.
 
-The site is targeted towards people of any age, sex, gender, culture who are wanting to organise their day.
+The site is targeted towards people of any age who are looking for a way to organise their day.
 
 ### Website Responsiveness
 
-Here is an image of the website shown on varying screen sizes to show it's responsivness.
+This is an image of the website shown on varying screen sizes to show it's responsivness.
 
 ![Image of my website shown through varied view ports](assets/docs/pp2-responsive.PNG)
 
@@ -118,6 +118,9 @@ The favicon image was taken from: https://favicon.io/emoji-favicons/
 
 All code which I have taken inspiration from or used to aid me with completing pp2 have comments above the code referring to the source
 i used when writing it. 
+
+The modal was created and styled with help from this 'https://www.youtube.com/watch?v=MBaw_6cPmAw' video.
+The code for creating the incrementing tally scores was taken from the 'Love Maths' walkthrough on CI.
 
 Footer:
 
