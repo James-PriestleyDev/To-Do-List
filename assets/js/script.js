@@ -50,15 +50,12 @@ function isAlpha(input) {
 
 /**
  * This will take the users input and display the text to the webapp
- * in form of a ul list. If there is no input then the user will be 
- * presented with the modal.
+ * in form of a ul list. If the input is invalid. i.e. whitespace or
+ * numbers. This will activate the modal informing them that something
+ * went wrong and for them to input a valid goal.
  */
 function goalInput() {
-    if (userInput.value === 'string' ){
-        modal.classList.add('active');
-        overlay.classList.add('active');
-        }
-     else {
+    if (isAlpha(userInput.value)) {
         let li = document.createElement("li");
         li.innerHTML = userInput.value;
         li.classList.add("user-goals");
@@ -68,6 +65,9 @@ function goalInput() {
         btn.classList.add("complete");
         li.appendChild(btn);
         inputTally();
+    } else {
+        modal.classList.add('active');
+        overlay.classList.add('active');
     }
     removeTask();   
 }
