@@ -32,11 +32,7 @@ const input = document.getElementById("goal-input");
  * presented with the modal.
  */
 function goalInput() {
-    if (userInput.value === ''){
-        modal.classList.add('active');
-        overlay.classList.add('active');
-        }
-     else {
+    if (userInput.value === 'string' ){
         let li = document.createElement("li");
         li.innerHTML = userInput.value;
         li.classList.add("user-goals");
@@ -45,7 +41,11 @@ function goalInput() {
         btn.innerHTML = "&times;";
         btn.classList.add("complete");
         li.appendChild(btn);
-        inputTally();
+        inputTally();;
+        }
+     else {
+        modal.classList.add('active');
+        overlay.classList.add('active');
     }
     removeTask();   
 }
