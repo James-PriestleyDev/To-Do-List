@@ -27,12 +27,27 @@ const userInput = document.getElementById("user-input");
 const input = document.getElementById("goal-input");
 
 /**
+ * This will check the users input
+ * to ensure that their input is valid.
+ * Preventing the user from entering empty
+ * tasks onto their to-do list
+ */
+
+function isAlpha(input) {
+
+}
+
+/**
  * This will take the users input and display the text to the webapp
  * in form of a ul list. If there is no input then the user will be 
  * presented with the modal.
  */
 function goalInput() {
     if (userInput.value === 'string' ){
+        modal.classList.add('active');
+        overlay.classList.add('active');
+        }
+     else {
         let li = document.createElement("li");
         li.innerHTML = userInput.value;
         li.classList.add("user-goals");
@@ -42,10 +57,6 @@ function goalInput() {
         btn.classList.add("complete");
         li.appendChild(btn);
         inputTally();
-        }
-     else {
-        modal.classList.add('active');
-        overlay.classList.add('active');
     }
     removeTask();   
 }
