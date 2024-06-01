@@ -41,7 +41,7 @@ function goalInput() {
         btn.innerHTML = "&times;";
         btn.classList.add("complete");
         li.appendChild(btn);
-        inputTally();;
+        inputTally();
         }
      else {
         modal.classList.add('active');
