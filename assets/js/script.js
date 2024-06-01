@@ -34,6 +34,17 @@ const input = document.getElementById("goal-input");
  */
 
 function isAlpha(input) {
+    // This will check if the input is a string, and checks for whitespaces.
+    if (typeof input !== 'string' || input.trim() === '') {
+        return false;
+    }
+
+    // 
+    // This code was inspired by w3schools / stackoverflow / developer.mozilla.
+    const letters = /^[A-Za-z\s]+$/;
+
+     // This tests the input against that of what is held inside the letters variable.
+     return letters.test(input);
 
 }
 
